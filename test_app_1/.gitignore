@@ -1,0 +1,16 @@
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+.erlang.mk.packages.v2
+_rel
+ebin
+#*.*
+.#*.*
+relx
+node_modules
+common.js
+the_farm.js
+facette/var/*

@@ -1,0 +1,68 @@
+{
+    "ttl" : 10000,
+    "roles" : [
+    {
+        "role"                 : "role_a",
+        "applications" : [{
+            "application"      : "test_app_1",
+            "versions" : [{
+                "version"      : "0.0.1",
+                "share"        : 60,
+                "archive_url"  : "https://gist.github.com/",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            },{
+                "version"      : "0.0.2",
+                "share"        : 30,
+                "archive_url"  : "https://gist.github.com/",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            },{
+                "version"      : "0.0.3",
+                "share"        : 10,
+                "archive_url"  : "https://gist.github.com/",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            }]
+        }]
+    },{
+        "role"                 : "role_b",
+        "applications" : [{
+            "application"      : "test_app_2",
+            "versions" : [{
+                "version"      : "0.0.1",
+                "share"        : 100,
+                "archive_url"  : "https://gist.github.com/",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            }]
+        }]
+    },{
+        "role"                 : "role_c",
+        "applications" : [{
+            "application"      : "test_app_3",
+            "versions" : [{
+                "version"      : "0.0.1",
+                "share"        : 80,
+                "archive_url"  : "https://gist.github.com/",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            },{
+                "version"      : "0.0.2",
+                "share"        : 20,
+                "archive_url"  : "https://gist.github.com/",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            }]
+        },{
+            "application"      : "test_app_4",
+            "versions" : [{
+                "version"      : "0.0.1",
+                "share"        : 100,
+                "archive_url"  : "https://gist.github.com/",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            }]
+        }]
+    }]
+}
