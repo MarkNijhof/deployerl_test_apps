@@ -7,6 +7,5 @@ releases: cleanup
 
 cleanup:
 	rm -rf releases
-	rm -rf test_app_1/_rel
-	rm -rf test_app_2/_rel
-	rm -rf test_app_3/_rel
+	rm -rf */_rel
+	rm -rf */ebin
