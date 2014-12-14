@@ -1,26 +1,13 @@
 {
     "ttl" : 10000,
-    "roles" : [
-    {
+    "roles" : [{
         "role"                 : "role_a",
         "applications" : [{
             "application"      : "test_app_1",
             "versions" : [{
                 "version"      : "0.0.1",
-                "share"        : 60,
+                "share"        : 100,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.1/releases/test_app_1_v0.0.1.tar",
-                "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
-            },{
-                "version"      : "0.0.2",
-                "share"        : 30,
-                "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.2/releases/test_app_1_v0.0.2.tar",
-                "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
-            },{
-                "version"      : "0.0.3",
-                "share"        : 10,
-                "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.3/releases/test_app_1_v0.0.3.tar",
                 "start_script" : "./start.sh",
                 "stop_script"  : "./stop.sh"
             }]
@@ -31,8 +18,20 @@
             "application"      : "test_app_2",
             "versions" : [{
                 "version"      : "0.0.1",
-                "share"        : 100,
+                "share"        : 60,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.1/releases/test_app_2_v0.0.1.tar",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            },{
+                "version"      : "0.0.2",
+                "share"        : 30,
+                "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.2/releases/test_app_2_v0.0.2.tar",
+                "start_script" : "./start.sh",
+                "stop_script"  : "./stop.sh"
+            },{
+                "version"      : "0.0.3",
+                "share"        : 10,
+                "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.3/releases/test_app_2_v0.0.3.tar",
                 "start_script" : "./start.sh",
                 "stop_script"  : "./stop.sh"
             }]
@@ -47,7 +46,8 @@
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.2/releases/test_app_2_v0.0.2.tar",
                 "start_script" : "./start.sh",
                 "stop_script"  : "./stop.sh"
-            },{
+            }]
+        },{
             "application"      : "test_app_3",
             "versions" : [{
                 "version"      : "0.0.1",
@@ -62,7 +62,6 @@
                 "start_script" : "./start.sh",
                 "stop_script"  : "./stop.sh"
             }]
-        }]
         }]
     }]
 }
