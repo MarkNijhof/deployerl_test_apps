@@ -1,6 +1,6 @@
 {application, test_app_2, [
 	{description, "Test APP 2"},
-	{vsn, "0.0.1"},
+	{vsn, "0.0.2"},
 	{modules, []},
 	{registered, [test_app_2_sup]},
 	{applications, [
