@@ -3,64 +3,71 @@
     "roles" : [{
         "role"                 : "role_a",
         "applications" : [{
-            "application"      : "test_app_1",
+            "name"             : "test_app_1",
             "versions" : [{
                 "version"      : "0.0.1",
                 "share"        : 100,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.1/releases/test_app_1_v0.0.1.tar",
                 "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
+                "stop_script"  : "./stop.sh",
+                "cookie"       : "test_app_1_cookie"
             }]
         }]
     },{
         "role"                 : "role_b",
         "applications" : [{
-            "application"      : "test_app_2",
+            "name"             : "test_app_2",
             "versions" : [{
                 "version"      : "0.0.1",
                 "share"        : 60,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.1/releases/test_app_2_v0.0.1.tar",
                 "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
+                "stop_script"  : "./stop.sh",
+                "cookie"       : "test_app_2_cookie"
             },{
                 "version"      : "0.0.2",
                 "share"        : 30,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.2/releases/test_app_2_v0.0.2.tar",
                 "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
+                "stop_script"  : "./stop.sh",
+                "cookie"       : "test_app_2_cookie"
             },{
                 "version"      : "0.0.3",
                 "share"        : 10,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.3/releases/test_app_2_v0.0.3.tar",
                 "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
+                "stop_script"  : "./stop.sh",
+                "cookie"       : "test_app_2_cookie"
             }]
         }]
     },{
         "role"                 : "role_c",
         "applications" : [{
-            "application"      : "test_app_2",
+            "name"             : "test_app_2",
             "versions" : [{
                 "version"      : "0.0.2",
                 "share"        : 100,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.2/releases/test_app_2_v0.0.2.tar",
                 "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
+                "stop_script"  : "./stop.sh",
+                "cookie"       : "test_app_2_cookie"
             }]
         },{
-            "application"      : "test_app_3",
+            "name"             : "test_app_3",
             "versions" : [{
                 "version"      : "0.0.1",
                 "share"        : 80,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.1/releases/test_app_3_v0.0.1.tar",
                 "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
+                "stop_script"  : "./stop.sh",
+                "cookie"       : "test_app_3_cookie"
             },{
                 "version"      : "0.0.2",
                 "share"        : 20,
                 "archive_url"  : "https://raw.githubusercontent.com/MarkNijhof/deployerl_test_apps/v0.0.2/releases/test_app_3_v0.0.2.tar",
                 "start_script" : "./start.sh",
-                "stop_script"  : "./stop.sh"
+                "stop_script"  : "./stop.sh",
+                "cookie"       : "test_app_3_cookie"
             }]
         }]
     }]
